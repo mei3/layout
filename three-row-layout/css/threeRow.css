@@ -1,0 +1,35 @@
+body,header,div,footer{
+  margin:0;
+  padding:0;
+}
+header,footer{
+	display:block;
+}
+html,body{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+}
+
+header,.content,footer{
+  width:100%;
+  position:absolute;
+  left:0;
+}
+header{
+  background-color:red;
+  height:30px;
+  top:0; 
+}
+.content{
+  height:auto;
+  background-color:green;
+  top:30px;
+  bottom:40px;
+}
+
+footer{
+  height:40px;
+  background-color:blue;
+  bottom:0;
+}
