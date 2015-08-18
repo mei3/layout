@@ -1,0 +1,19 @@
+body,div,p{
+  margin:0;
+  padding:0;
+}
+
+.lside{ 
+  width:100px;
+  float:left;
+  background-color:red;
+}
+.rside{ 
+  width:100px;
+  float:right;
+  background-color:blue;
+}
+.middle{
+  margin:0 100px;
+  background-color:green;
+}
