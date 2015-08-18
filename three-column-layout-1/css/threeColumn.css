@@ -1,0 +1,29 @@
+body,div,p{
+  margin:0;
+  padding:0;
+}
+
+.thr div.content{
+
+  width:100%;
+  float:left;
+  border:1px solid;
+}
+.thr div.subMenuLeft,.thr div.infoRight{
+  float:left;
+}
+.thr div.subMenuLeft{
+  width:150px;
+  margin-left:-100%;
+  background:#00FFFF;
+}
+.thr div.infoRight{
+  width:200px;
+  margin-left:-202px;
+  background:#FF0000;
+}
+.thr div.mainBoxCenter{
+  margin-left:150px;
+  margin-right:200px;
+  background:#00FF00;
+}
